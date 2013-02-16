@@ -45,7 +45,7 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/passwordText"
             android:text="@string/loginString"
-           />
+        />
 
         <Button
             android:id="@+id/registerButton"
@@ -55,9 +55,8 @@
             android:layout_alignParentRight="true"
            
             android:text="@string/registerString"
-             />
+         />
+        
     </RelativeLayout>
-
-    
 
 </LinearLayout>
