@@ -8,5 +8,10 @@
     <string name="loginString">Log In</string>
     <string name="registerString">Register New Account</string>
     <string name="passwordHint">Enter Password</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="registerTitle">Register a New Account</string>
+    <string name="usernameRegHint">Enter New Username</string>
+    <string name="passwordRegHint">Password</string>
+    <string name="passwordConfirmHint">Confirm Password</string>
 
 </resources>
