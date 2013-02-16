@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" 
+    android:padding="15dp">
+    
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="30dp"
+        android:layout_weight=".5"
+        android:background="@drawable/cart2"
+        android:padding="20dp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.5" >
+        
+        <EditText            
+	        android:id="@+id/nameText"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/loginHint" 
+	        android:layout_marginBottom="10dp"
+	    />
+        
+        <EditText            
+	        android:id="@+id/passwordText"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/nameText"
+	        android:hint="@string/passwordHint" 
+	        android:inputType="textPassword"
+	        android:layout_marginBottom="10dp"        
+        />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/passwordText"
+            android:text="@string/loginString"
+           />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+           
+            android:text="@string/registerString"
+             />
+    </RelativeLayout>
+
+    
+
+</LinearLayout>

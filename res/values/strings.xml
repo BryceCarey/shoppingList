@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shopping List</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="loginHint">Enter Username</string>
+    <string name="loginString">Log In</string>
+    <string name="registerString">Register New Account</string>
+    <string name="passwordHint">Enter Password</string>
+
+</resources>
